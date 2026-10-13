@@ -12,3 +12,6 @@ it was a fairly easy game the logics is pretty easy, i did the execution quickly
 2. more sudoku puzzles.
 3. better styling.
 4. clues.
+
+## SCREENSHOTS
+<img src="screenshots.png" width="300px">
