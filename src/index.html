@@ -87,7 +87,7 @@
 <body>
     <h1>Sudoku</h1>
     <h2>Life: <span id="errors">5</span>/ 5</h2>
-    <button onclick="setGame()">Restart</button>
+    <button>Restart</button>
     <br><br>
     <div id="board"></div>
     <div id="digits"></div>
@@ -119,6 +119,7 @@
             "812945763"
         ]
         window.onload=function(){
+            document.querySelector("button").onclick=setGame;
             setGame();
         }
         function setGame(){
